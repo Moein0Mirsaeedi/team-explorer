@@ -108,14 +108,14 @@ a {
   .progress-side {
     width: 40px;
     height: 40px;
-    border: 5px solid white;
+    border: 5px solid #253334;
   }
 
   .progress-side::before {
     content: "";
     width: 5px;
     height: calc(50% - 18px);
-    background-color: white;
+    background-color: #253334;
     position: absolute;
     bottom: 0;
   }
@@ -124,7 +124,7 @@ a {
     content: "";
     width: 5px;
     height: calc(50% - 18px);
-    background-color: white;
+    background-color: #253334;
     position: absolute;
     top: 0;
   }
@@ -171,7 +171,7 @@ a {
 
   .home-about-me {
     font-size: 1.2rem;
-    color: #e8e8e8;
+    color: #253334;
   }
 
   .home-about-me span {
@@ -277,11 +277,11 @@ a {
   }
 
   .border-left-1 {
-    border-left: #ffe15d 5px solid;
+    border-left: var(--color1) 5px solid;
   }
 
   .border-right-1 {
-    border-right: #ffe15d 5px solid;
+    border-right: var(--color1) 5px solid;
   }
 }
 
@@ -319,7 +319,7 @@ a {
 }
 
 .border-left {
-  border-left: #ffe15d 5px solid;
+  border-left: var(--color1) 5px solid;
 }
 
 .padding-left {
@@ -361,7 +361,7 @@ a {
   }
 
   .border-left-1 {
-    border-left: #ffe15d 5px solid;
+    border-left: var(--color1) 5px solid;
   }
 
   .padding-left-1 {
@@ -410,7 +410,7 @@ a {
 }
 
 .border-left {
-  border-left: #ffe15d 5px solid;
+  border-left: var(--color1) 5px solid;
 }
 
 @media screen and (max-width: 850px) {
@@ -425,7 +425,7 @@ a {
   }
 
   .border-left-1 {
-    border-left: #ffe15d 5px solid;
+    border-left: var(--color1) 5px solid;
   }
 }
 

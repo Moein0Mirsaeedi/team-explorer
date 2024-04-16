@@ -106,7 +106,7 @@ let languages = [
       `
       <h2 class="skills-title"><span>توضیحات تکمیلی پروژه</h2>
         <br /><br />
-        <div class="row border-left-1 padding-left">
+        <div class="row border-right-1 padding-left">
           <div class="col col-12 col-md-6 skills-text">
             از قابلیت های این پروژه میتوان به تشخیص آتش، تشخیص لرزش اضافه فرو ریختگی قسمت های پوشش داده شده توسط سنسور، 
             کاهش و افزایش ولتاژ، کاهش و افزایش آمپر و تشخیص نشت آب اشاره کرد
