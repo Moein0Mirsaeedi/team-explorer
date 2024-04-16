@@ -370,26 +370,28 @@ let navItem = document.getElementsByClassName("nav-link");
 let languageSite = "FA";
 
 // change language for load site
-let isLanLocal = localStorage.getItem("LA");
-if (isLanLocal != null) {
-  languageSite = isLanLocal;
-  if (languageSite === "FA") {
-    changeToFA();
-  } else if (languageSite === "EN") {
-    changeToEN();
-  }
-}
+// let isLanLocal = localStorage.getItem("LA");
+// if (isLanLocal != null) {
+//   languageSite = isLanLocal;
+//   if (languageSite === "FA") {
+//     changeToFA();
+//   } else if (languageSite === "EN") {
+//     changeToEN();
+//   }
+// }
 
 // event change language for btn
-for (const key of btnChangeLan) {
-  key.addEventListener("click", function () {
-    if (languageSite === "EN") {
-      changeToFA();
-    } else if (languageSite === "FA") {
-      changeToEN();
-    }
-  });
-}
+// for (const key of btnChangeLan) {
+//   key.addEventListener("click", function () {
+//     if (languageSite === "EN") {
+//       changeToFA();
+//     } else if (languageSite === "FA") {
+//       changeToEN();
+//     }
+//   });
+// }
+
+changeToFA();
 
 // Change language to FA
 function changeToFA() {
