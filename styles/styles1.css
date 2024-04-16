@@ -1,0 +1,452 @@
+:root {
+  --color1: #ffc107;
+  --color2: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.body-site {
+  width: 100%;
+  height: 500vh;
+}
+
+.pages-site {
+  height: 100vh;
+  background-color: rgba(72, 191, 227, 1);
+  background-image: radial-gradient(
+      at 87% 26%,
+      rgba(136, 246, 231, 0.07) 0%,
+      transparent 37%
+    ),
+    radial-gradient(at 5% 10%, rgba(105, 48, 195, 1) 0%, transparent 57%),
+    radial-gradient(at 94% 62%, rgba(78, 168, 222, 1) 0%, transparent 50%),
+    radial-gradient(at 22% 89%, rgba(118, 120, 216, 1) 0%, transparent 50%),
+    radial-gradient(at 39% 73%, rgba(128, 255, 219, 1) 0%, transparent 54%),
+    radial-gradient(at 90% 92%, rgba(116, 0, 184, 1) 0%, transparent 50%);
+}
+
+.about-page,
+.skills-page {
+  transform: rotateX(180deg);
+}
+
+.about-page > div,
+.skills-page > div {
+  transform: rotateX(180deg);
+}
+
+.pages-site > div {
+  width: 100%;
+  height: 100%;
+}
+
+.pages-site > div > .row {
+  height: 100%;
+  width: 100%;
+}
+
+.pages-site > div > .row > .col-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.progress-side {
+  width: 70px;
+  height: 70px;
+  border: 8px solid white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.progress-side::before {
+  content: "";
+  width: 8px;
+  height: calc(50% - 32px);
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.progress-side::after {
+  content: "";
+  width: 8px;
+  height: calc(50% - 32px);
+  background-color: white;
+  position: absolute;
+  top: 0;
+}
+
+.home-page > div > .row > .col-2 > div::after {
+  position: unset;
+}
+
+.contact-page > div > .row > .col-2 > div::before {
+  position: unset;
+}
+
+@media screen and (max-width: 600px) {
+  .progress-side {
+    width: 40px;
+    height: 40px;
+    border: 5px solid white;
+  }
+
+  .progress-side::before {
+    content: "";
+    width: 5px;
+    height: calc(50% - 18px);
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .progress-side::after {
+    content: "";
+    width: 5px;
+    height: calc(50% - 18px);
+    background-color: white;
+    position: absolute;
+    top: 0;
+  }
+}
+
+/* Navigation styles */
+.nav-link {
+  font-size: 18px;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+.navbar {
+  transition: 500ms;
+}
+
+.navbar.scrollthis {
+  background-color: #fff;
+}
+
+/* Home page styles */
+.home-name {
+  font-size: 6rem;
+}
+
+.home-about-me {
+  font-size: 1.8rem;
+  color: #e8e8e8;
+}
+
+.home-about-me span {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 700px) {
+  .home-name {
+    font-size: 3.5rem;
+  }
+
+  .home-about-me {
+    font-size: 1.2rem;
+    color: #e8e8e8;
+  }
+
+  .home-about-me span {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .home-name {
+    font-size: 3rem;
+  }
+
+  .home-about-me {
+    font-size: 1rem;
+  }
+
+  .home-about-me span {
+    font-size: 0.7rem;
+  }
+}
+
+/* about me page styles */
+
+.about-title {
+  color: var(--color1);
+  font-size: 3.5rem;
+  /* border-bottom: var(--color1) 4px solid; */
+  /* width: max-content; */
+}
+
+/* .about-title span {
+  color: var(--color1);
+} */
+
+.about-text {
+  color: var(--color2);
+  font-size: 1.5rem;
+}
+
+.about-text span {
+  color: var(--color1);
+}
+
+.btn-outline-warning {
+  transition: 200ms;
+  padding: 4px 8px;
+}
+
+@media screen and (max-width: 400px) {
+  .about-title {
+    font-size: 3.2rem;
+  }
+  .about-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .about-title {
+    font-size: 2.8rem;
+  }
+  .about-text {
+    font-size: 1rem;
+  }
+}
+
+/* my service page styles */
+.service-title {
+  color: var(--color1);
+  font-size: 3.5rem;
+}
+
+/* .service-title span {
+  color: var(--color1);
+} */
+
+.service-text {
+  color: var(--color2);
+  font-size: 1.5rem;
+}
+
+.border-left {
+  border-left: #ffe15d 5px solid;
+}
+
+.border-right {
+  border-right: #ffe15d 5px solid;
+}
+
+@media screen and (max-width: 850px) {
+  .service-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .border-left {
+    border-left: none;
+  }
+
+  .border-right {
+    border-right: none;
+  }
+
+  .border-left-1 {
+    border-left: #ffe15d 5px solid;
+  }
+
+  .border-right-1 {
+    border-right: #ffe15d 5px solid;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .service-title {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .service-title {
+    font-size: 2.8rem;
+  }
+}
+
+/* My skills page styles */
+.skills-title {
+  color: var(--color1);
+  font-size: 3.5rem;
+}
+
+/* .skills-title span {
+  color: var(--color1);
+} */
+
+.skills-text {
+  color: var(--color2);
+  font-size: 1.5rem;
+}
+
+.skills-text span.i {
+  color: var(--color1);
+  font-size: 2rem;
+  margin-left: -20px;
+}
+
+.border-left {
+  border-left: #ffe15d 5px solid;
+}
+
+.padding-left {
+  padding-left: 50px;
+}
+
+.padding-left-1 {
+  padding-left: 50px;
+}
+
+.progress {
+  margin-left: -20px;
+  height: 20px;
+  width: 50%;
+  font-size: 16px;
+  border: #fff 2px solid;
+}
+
+.progress > div {
+  background-color: var(--color1);
+  color: #000;
+}
+
+@media screen and (max-width: 1100px) {
+  .progress {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .skills-text {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .border-left {
+    border-left: none;
+  }
+
+  .border-left-1 {
+    border-left: #ffe15d 5px solid;
+  }
+
+  .padding-left-1 {
+    padding-left: 12px;
+  }
+
+  .progress {
+    height: 15px;
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .skills-text span.i {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .skills-title {
+    font-size: 2.5rem;
+  }
+  .skills-text {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .skills-title {
+    font-size: 2.2rem;
+  }
+}
+
+/* Contact me page styles */
+.contact-title {
+  color: var(--color1);
+  font-size: 3.5rem;
+}
+
+/* .contact-title span {
+  color: var(--color1);
+} */
+
+.contact-text {
+  color: var(--color2);
+  font-size: 1.5rem;
+}
+
+.border-left {
+  border-left: #ffe15d 5px solid;
+}
+
+@media screen and (max-width: 850px) {
+  .contact-text {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .border-left {
+    border-left: none;
+  }
+
+  .border-left-1 {
+    border-left: #ffe15d 5px solid;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contact-title {
+    font-size: 2.5rem;
+  }
+  .contact-text {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .contact-title {
+    font-size: 2rem;
+  }
+}
+
+.download-cart {
+  transition: 500ms;
+}
+
+.download-cart:hover {
+  opacity: 0.5;
+}
+
+.hide {
+  position: absolute;
+  opacity: 0;
+  user-select: none;
+  top: 0;
+}
