@@ -123,36 +123,36 @@ let languages = [
     ],
     contactPage: [
       `<h2 class="contact-title">ارتباط با ما</h2>
-      <br /><br />
-      <div class="row border-left-1">
-        <div class="col col-12 col-md-6 contact-text">
-          <br />
-          <span>
-            تماس: 09920810148
-            <hr />
-            ایمیل: ExplorerTeam2024@Gmail.com
-            <hr />
-            شبکه های مجازی: @ExplorerTeam
-            <hr />
-            آدرس: خراسان رضوی، مشهد، دانشگاه فردوسی، کانون رباتیک
-            <hr />
-            وبسایت: ExplorerTeam.ir
-          </span>
-          <br /><br /><br />
-        </div>
-        <div
-          class="col col-12 col-md-6 service-text border-left d-flex align-items-center"
-        >
-          <a class="download-cart" href="images/CartInfoM.png" download>
-            <img
-              class="w-100"
-              src="images/CartInfoM.png"
-              alt="Moein Mirsaeedi | معین میرسعیدی"
-            />
-            <p class="text-center text-light">Click for download</p>
-          </a>
-        </div>
-      </div>
+              <br /><br />
+              <div class="row border-right-1">
+                <div class="col col-12 col-md-6 contact-text">
+                  <br />
+                  <span>
+                    تماس: 09920810148
+                    <hr />
+                    ایمیل: ExplorerTeam2024@Gmail.com
+                    <hr />
+                    شبکه های مجازی: @ExplorerTeam
+                    <hr />
+                    آدرس: خراسان رضوی، مشهد، دانشگاه فردوسی، کانون رباتیک
+                    <hr />
+                    وبسایت: ExplorerTeam.ir
+                  </span>
+                  <br /><br /><br />
+                </div>
+                <div
+                  class="col col-12 col-md-6 service-text border-right d-flex align-items-center"
+                >
+                  <a class="download-cart d-flex flex-column align-items-center justify-content-center" href="images/CartInfoM.png" download>
+                    <img
+                      class="w-50"
+                      src="images/CartInfoM.png"
+                      alt="Explorer Team"
+                    />
+                    <p class="text-center text-light">Click for download</p>
+                  </a>
+                </div>
+              </div>
       `,
     ],
   },
