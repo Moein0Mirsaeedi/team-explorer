@@ -37,6 +37,10 @@ a {
     radial-gradient(at 90% 92%, rgba(116, 0, 184, 1) 0%, transparent 50%);
 }
 
+.about-text {
+  max-width: 800px;
+}
+
 .about-page,
 .skills-page {
   transform: rotateX(180deg);

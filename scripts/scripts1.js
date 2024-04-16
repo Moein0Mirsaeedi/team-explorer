@@ -36,216 +36,131 @@ let languages = [
   {
     menuItem: ["خانه", "درباره من", "خدمات", "مهارت ها", "ارتباط با من"],
     homePage: [
-      "معین میرسعیدی",
-      `برنامه نویس ، طراح وب <br />
-                طراح گرافیک و... <br />
-                <span>تماس: 09056249543</span>`,
+      "اکسپلورر تیم",
+      `حفاظت و نگهداری هوشمند موتورخانه و تاسیسات <br />
+                حفاظت از دور...<br />
+                </span>`,
     ],
     aboutPage: [
-      `<h2 class="about-title">درباره من</h2>
-              <br /><br />
-              <p class="about-text">
-               دو سال که در زمینه <span>طراحی وب</span> و
-                <span>برنامه نویسی</span> وب کار می کنم.
-                <br />
-                و به زبان های <span>Html</span> , <span>Css</span> و
-                <span>JavaScript</span> مسلطم.
-                <br />
-                همچنین به فناوری های دیگه مثل <span>Bootstrap</span> ,
-                <span>Git</span> و <span>Sass</span> هم مسلطم.
-                <br />
-                مسلط به کار های <span>گرافیکی</span> و <span>ادیت</span>.
-                <br />
-    
-              
-
-                مشاهده
-    
-                <a
-                  href="https://github.com/Moein0Mirsaeedi"
-                  class="btn btn-outline-warning"
-                  role="button"
-                  >گیت هاب</a
-                >
-    
-                <br /><br />
-    
-                در حال حاضر در دو رشته <span>کلیستنیکس</span> و
-                <span>کیکبوکسینگ</span> <br> فعالیت دارم
-                <br />
-                مشاهده
-
-                <a
-                  href="https://instagram.com/moein_mirsaeedi"
-                  class="btn btn-outline-warning"
-                  role="button"
-                  >اینستاگرام</a
-                >`,
+      `<!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Document</title>
+        </head>
+        <body>
+          <h2 class="about-title">درباره ما</h2>
+          <br /><br />
+          <p class="about-text">
+            اعضای تیم ما:
+            <br />
+            <span>صالح عزیزی</span> و <span>امیر حسین دهقانی</span>
+            <br />
+            <br />
+            اعضای رسمی کانون <span>رباتیک</span> دانشگاه فردوسی مشهد
+            <br />
+            <br />
+            در این پروژه قصد داریم تا موتور خانه ها را به گونه ای هوشمند کنیم تا خسارات به حداقل برسد و همچنین در صورت
+            بروز اتفاقات در کمترین زمان ممکن هشدار های مربوطه به کاربر ارسال شود.
+            <br />
+            <br />
+            دستگاه حفاظت (دور) هوشمند را میتوان در مکان های مختلف تاسیساتی نظیر، اداره جات، مجتمع های تجاری،
+            پارک های آبی، شهربازی ها و مجتمع های مسکونی مورد استفاده قرار داد
+          </p>
+        </body>
+      </html>
+      
+      `,
     ],
     servicePage: [
-      `<h2 class="service-title">خدمات</h2>
-              <br /><br /><br />
-              <div class="row border-left-1 mb-5">
-                <div class="col col-12 col-md-6 service-text">
-                  <span>
-                    طراحی انواع وبسایت
-                    <br />
-                    پروژه های برنامه نویسی
-                    <br />
-                    <hr />
-                    تبلیغات و سئو
-                    <br />
-                    کار های گرافیکی
-                    <br />
-                    ادیت ویدیو و تصاویر
-                    <br />
-                    <hr />
-                    آموزش برنامه نویسی و طراحی وب
-                    <br />
-                    آموزش مباحث کامپیوتر
-                  </span>
-                </div>
-                <div class="col col-12 col-md-6 service-text border-left">
-                  <p>مشکلات سخت افزاری و نرم افزار</p>
-                </div>
-              </div>`,
+      `<h2 class="service-title">بخشی از ویژگی های پروژه</h2>
+      <br /><br /><br />
+      <div class="row border-left-1 mb-5">
+        <div class="col col-12 col-md-6 service-text">
+          <span>
+            • اتصال به موبایل از طریق نرم افزار
+            <br />
+            • ثبت و بایگانی تمامی رویدادها و ورودی ها
+            <br />
+            <hr />
+            • اعلان خطر های احتمالی و امکان گزارش گیری از طریق نرم افزار
+            <br />
+            • کنترل جامع دستگاه های تاسیساتی
+            <br />
+            • ساختار ماژولار برد
+            <br />
+            <hr />
+            • بدنه ای مستحکم با قابلیت اسمبل
+            <br />
+            • هزینه اقتصادی با توجه به کارایی
+          </span>
+        </div>
+        <div class="col col-12 col-md-6 service-text border-left">
+          <p>• امکان برقراری ارتباط صوتی با نرم افزار</p>
+        </div>
+      </div>
+      `,
     ],
     skillsPage: [
       `
-    <h2 class="skills-title"><span>مهارت ها</h2>
-              <br /><br />
-              <div class="row border-left-1 padding-left">
-                <div class="col col-12 col-md-6 skills-text">
-                  <span>
-                    <span class="i">طراحی وب</span>
-                    <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-warning"
-                        role="progressbar"
-                        aria-valuenow="100"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 90%"
-                      >
-                        90%
-                      </div>
-                    </div>
-                    Html, Css
-                    <br />
-                    Bootstrap , Sass
-                    <br />
-
-                    <hr />
-
-                    <span class="i">برنامه نویسی</span>
-                    <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-warning"
-                        role="progressbar"
-                        aria-valuenow="100"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 50%"
-                      >
-                        50%
-                      </div>
-                    </div>
-
-                    JavaScript
-                    <br />
-                    JQuery
-                    <br />
-
-                    <hr />
-
-                    <span class="i">مهارت های عمومی</span>
-                    <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-warning"
-                        role="progressbar"
-                        aria-valuenow="100"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 90%"
-                      >
-                        90%
-                      </div>
-                    </div>
-
-                    Git , Github
-                    <br />
-
-                    <hr />
-                  </span>
-                </div>
-                <div
-                  class="col col-12 col-md-6 skills-text border-left padding-left-1"
-                >
-                  <span>
-                    <span class="i">ادیت</span>
-                    <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-warning"
-                        role="progressbar"
-                        aria-valuenow="100"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 50%"
-                      >
-                        50%
-                      </div>
-                    </div>
-
-                    Photoshop
-                    <br />
-                    Pixellab
-                    <br />
-                    Figma
-                    <br />
-
-                    <hr />
-                  </span>
-                </div>
-              </div>`,
+      <h2 class="skills-title"><span>توضیحات تکمیلی پروژه</h2>
+        <br /><br />
+        <div class="row border-left-1 padding-left">
+          <div class="col col-12 col-md-6 skills-text">
+            از قابلیت های این پروژه میتوان به تشخیص آتش، تشخیص لرزش اضافه فرو ریختگی قسمت های پوشش داده شده توسط سنسور، 
+            اهش و افزایش ولتاژ، کاهش و افزایش آمپر و تشخیص نشت آب اشاره کرد
+          <br><br>
+          داده های ورودی به صورت دوره ای در بانک اطلاعاتی اپلیکیشن موبایل ذخیره شده و میتوان گزارش های متعددی از این اطلاعات گرفت.
+          <br>
+          هدف از طراحی و ساخت این پروژه جلوگیری از آسیب های موتورخانه ای و یا برای شرح ساده تر، ایمن سازی، کنترل و آگاهی در لحظه کاربر از فضای تاسیساتی می باشد.
+          <br>
+          <br>
+          همچنین دستگاه حفاظت دور با استفاده از اپلیکیشن موبایل به کاربر اجازه می دهد تا در هر زمان بتواند با دستگاه ارتباط آفلاین برقرار و
+          کنترل همه جانبه فضا به همراه امنیت تاسیسات مورد نظر خود را زیر نظر داشته باشد.
+        </div>
+        </div>`,
     ],
     contactPage: [
-      `<h2 class="contact-title">ارتباط با من</h2>
-              <br /><br />
-              <div class="row border-left-1">
-                <div class="col col-12 col-md-6 contact-text">
-                  <br />
-                  <span>
-                    تماس: 09056249543
-                    <hr />
-                    ایمیل: MoeinGIR@moeing.ir
-                    <hr />
-                    شبکه های مجازی: MoeingIR
-                    <hr />
-                    گیت هاب: Moein0Mirsaeedi
-                    <hr />
-                    وبسایت: Moeing.ir
-                  </span>
-                  <br /><br /><br />
-                </div>
-                <div
-                  class="col col-12 col-md-6 service-text border-left d-flex align-items-center"
-                >
-                  <a class="download-cart" href="images/CartInfoM.png" download>
-                    <img
-                      class="w-100"
-                      src="images/CartInfoM.png"
-                      alt="Moein Mirsaeedi | معین میرسعیدی"
-                    />
-                    <p class="text-center text-light">Click for download</p>
-                  </a>
-                </div>
-              </div>`,
+      `<h2 class="contact-title">ارتباط با ما</h2>
+      <br /><br />
+      <div class="row border-left-1">
+        <div class="col col-12 col-md-6 contact-text">
+          <br />
+          <span>
+            تماس: 09920810148
+            <hr />
+            ایمیل: ExplorerTeam2024@Gmail.com
+            <hr />
+            شبکه های مجازی: @ExplorerTeam
+            <hr />
+            آدرس: خراسان رضوی، مشهد، دانشگاه فردوسی، کانون رباتیک
+            <hr />
+            وبسایت: ExplorerTeam.ir
+          </span>
+          <br /><br /><br />
+        </div>
+        <div
+          class="col col-12 col-md-6 service-text border-left d-flex align-items-center"
+        >
+          <a class="download-cart" href="images/CartInfoM.png" download>
+            <img
+              class="w-100"
+              src="images/CartInfoM.png"
+              alt="Moein Mirsaeedi | معین میرسعیدی"
+            />
+            <p class="text-center text-light">Click for download</p>
+          </a>
+        </div>
+      </div>
+      `,
     ],
   },
+
   {
     menuItem: ["Home", "About me", "My service", "My skills", "Contact me"],
     homePage: [
-      "Moein Mirsaeedi",
+      "Explorer Team",
       "Programmer , Web designer, <br>Graphic designer and...",
       "call: 09056249543",
     ],
@@ -452,7 +367,7 @@ let languages = [
 
 let btnChangeLan = document.getElementsByClassName("changeLan");
 let navItem = document.getElementsByClassName("nav-link");
-let languageSite = "EN";
+let languageSite = "FA";
 
 // change language for load site
 let isLanLocal = localStorage.getItem("LA");
@@ -520,18 +435,18 @@ function changeToFA() {
 
   // skills page change
   $$.querySelector(".skills-lan-site").innerHTML = languages[0].skillsPage[0];
-  $$.querySelector(".skills-lan-site").children[3].children[1].classList.remove(
-    "border-left"
-  );
-  $$.querySelector(".skills-lan-site").children[3].children[1].classList.add(
-    "border-right"
-  );
-  $$.querySelector(".skills-lan-site").children[3].classList.remove(
-    "border-left-1"
-  );
-  $$.querySelector(".skills-lan-site").children[3].classList.add(
-    "border-right-1"
-  );
+  // $$.querySelector(".skills-lan-site").children[3].children[1].classList.remove(
+  //   "border-left"
+  // );
+  // $$.querySelector(".skills-lan-site").children[3].children[1].classList.add(
+  //   "border-right"
+  // );
+  // $$.querySelector(".skills-lan-site").children[3].classList.remove(
+  //   "border-left-1"
+  // );
+  // $$.querySelector(".skills-lan-site").children[3].classList.add(
+  //   "border-right-1"
+  // );
 
   // contact page change
   $$.querySelector(".contact-lan-site").innerHTML = languages[0].contactPage[0];
@@ -553,35 +468,35 @@ function changeToFA() {
 }
 
 // Change language to EN
-function changeToEN() {
-  languageSite = "EN";
-  $$.querySelector(".changeLan1").innerHTML = "FA";
-  $$.querySelector(".changeLan2").innerHTML = "FA";
-  localStorage.setItem("LA", "EN");
+// function changeToEN() {
+//   languageSite = "EN";
+//   $$.querySelector(".changeLan1").innerHTML = "FA";
+//   $$.querySelector(".changeLan2").innerHTML = "FA";
+//   localStorage.setItem("LA", "EN");
 
-  // menu change
-  document.body.style.direction = "ltr";
-  for (const key in navItem) {
-    navItem[key].innerHTML = languages[1].menuItem[key];
-  }
-  $$.querySelector(".navbar-brand").classList.add("ms-4");
-  $$.querySelector("#changeLan").classList.add("ms-auto");
-  $$.querySelector("#changeLan").classList.remove("me-auto");
-  $$.querySelector("#changeLan").classList.remove("ms-2");
+//   // menu change
+//   document.body.style.direction = "ltr";
+//   for (const key in navItem) {
+//     navItem[key].innerHTML = languages[1].menuItem[key];
+//   }
+//   $$.querySelector(".navbar-brand").classList.add("ms-4");
+//   $$.querySelector("#changeLan").classList.add("ms-auto");
+//   $$.querySelector("#changeLan").classList.remove("me-auto");
+//   $$.querySelector("#changeLan").classList.remove("ms-2");
 
-  // home page change
-  $$.querySelector(".home-name").innerHTML = languages[1].homePage[0];
-  $$.querySelector(".home-about-me").innerHTML = languages[1].homePage[1];
+//   // home page change
+//   $$.querySelector(".home-name").innerHTML = languages[1].homePage[0];
+//   $$.querySelector(".home-about-me").innerHTML = languages[1].homePage[1];
 
-  // about page change
-  $$.querySelector(".about-lan-site").innerHTML = languages[1].aboutPage[0];
+//   // about page change
+//   $$.querySelector(".about-lan-site").innerHTML = languages[1].aboutPage[0];
 
-  // service page change
-  $$.querySelector(".service-lan-site").innerHTML = languages[1].servicePage[0];
+//   // service page change
+//   $$.querySelector(".service-lan-site").innerHTML = languages[1].servicePage[0];
 
-  // skills page change
-  $$.querySelector(".skills-lan-site").innerHTML = languages[1].skillsPage[0];
+//   // skills page change
+//   $$.querySelector(".skills-lan-site").innerHTML = languages[1].skillsPage[0];
 
-  // contact page change
-  $$.querySelector(".contact-lan-site").innerHTML = languages[1].contactPage[0];
-}
+//   // contact page change
+//   $$.querySelector(".contact-lan-site").innerHTML = languages[1].contactPage[0];
+// }
