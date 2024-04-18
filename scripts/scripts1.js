@@ -39,18 +39,10 @@ let languages = [
       "اکسپلورر تیم",
       `حفاظت و نگهداری هوشمند موتورخانه و تاسیسات <br />
                 حفاظت از دور...<br />
-                </span>`,
+                `,
     ],
     aboutPage: [
-      `<!DOCTYPE html>
-      <html lang="en">
-        <head>
-          <meta charset="UTF-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>Document</title>
-        </head>
-        <body>
-          <h2 class="about-title">درباره ما</h2>
+      `<h2 class="about-title">درباره ما</h2>
           <br /><br />
           <p class="about-text">
             اعضای تیم ما:
@@ -67,11 +59,7 @@ let languages = [
             <br />
             دستگاه حفاظت (دور) هوشمند را میتوان در مکان های مختلف تاسیساتی نظیر، اداره جات، مجتمع های تجاری،
             پارک های آبی، شهربازی ها و مجتمع های مسکونی مورد استفاده قرار داد
-          </p>
-        </body>
-      </html>
-      
-      `,
+          </p>`,
     ],
     servicePage: [
       `<h2 class="service-title">بخشی از ویژگی های پروژه</h2>
@@ -119,6 +107,22 @@ let languages = [
           همچنین دستگاه حفاظت دور با استفاده از اپلیکیشن موبایل به کاربر اجازه می دهد تا در هر زمان بتواند با دستگاه ارتباط آفلاین برقرار و
           کنترل همه جانبه فضا به همراه امنیت تاسیسات مورد نظر خود را زیر نظر داشته باشد.
         </div>
+        <div
+                  class="col col-12 col-md-6 service-text border-right d-flex align-items-center"
+                >
+                  <a
+                    class="download-cart d-flex flex-column align-items-center justify-content-center"
+                    href="images/1.jpg"
+                    download
+                  >
+                    <img
+                      class="w-50"
+                      src="images/1.jpg"
+                      alt="Explorer Team"
+                    />
+                    <p class="text-center text-light">Click for download</p>
+                  </a>
+                </div>
         </div>`,
     ],
     contactPage: [
