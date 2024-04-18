@@ -57,6 +57,11 @@ a {
   height: 100%;
 }
 
+.ss98 > div {
+  width: 100%;
+  height: 100%;
+}
+
 .pages-site > div > .row {
   height: 100%;
   width: 100%;
@@ -104,7 +109,16 @@ a {
   position: unset;
 }
 
+.img-omp {
+  width: 50%;
+}
+
 @media screen and (max-width: 600px) {
+  .img-omp {
+    width: 90%;
+    margin-top: 40px;
+  }
+
   .progress-side {
     width: 40px;
     height: 40px;
@@ -356,6 +370,13 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  .ss85 {
+    /* height: 110vh; */
+  }
+  .ss98 {
+    height: 125vh;
+  }
+
   .border-left {
     border-left: none;
   }

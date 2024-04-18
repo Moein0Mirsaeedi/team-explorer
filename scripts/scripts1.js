@@ -64,7 +64,7 @@ let languages = [
     servicePage: [
       `<h2 class="service-title">بخشی از ویژگی های پروژه</h2>
       <br /><br /><br />
-      <div class="row border-left-1 mb-5">
+      <div class="row mb-5">
         <div class="col col-12 col-md-6 service-text">
           <span>
             • اتصال به موبایل از طریق نرم افزار
@@ -94,7 +94,7 @@ let languages = [
       `
       <h2 class="skills-title"><span>توضیحات تکمیلی پروژه</h2>
         <br /><br />
-        <div class="row border-right-1 padding-left">
+        <div class="row padding-left">
           <div class="col col-12 col-md-6 skills-text">
             از قابلیت های این پروژه میتوان به تشخیص آتش، تشخیص لرزش اضافه فرو ریختگی قسمت های پوشش داده شده توسط سنسور، 
             کاهش و افزایش ولتاژ، کاهش و افزایش آمپر و تشخیص نشت آب اشاره کرد
@@ -108,7 +108,7 @@ let languages = [
           کنترل همه جانبه فضا به همراه امنیت تاسیسات مورد نظر خود را زیر نظر داشته باشد.
         </div>
         <div
-                  class="col col-12 col-md-6 service-text border-right d-flex align-items-center"
+                  class="col col-12 col-md-6 service-text border-right d-flex align-items-center ss85"
                 >
                   <a
                     class="download-cart d-flex flex-column align-items-center justify-content-center"
@@ -116,7 +116,7 @@ let languages = [
                     download
                   >
                     <img
-                      class="w-50"
+                      class="img-omp"
                       src="images/1.jpg"
                       alt="Explorer Team"
                     />
@@ -128,7 +128,7 @@ let languages = [
     contactPage: [
       `<h2 class="contact-title">ارتباط با ما</h2>
               <br /><br />
-              <div class="row border-right-1">
+              <div class="row">
                 <div class="col col-12 col-md-6 contact-text">
                   <br />
                   <span>
@@ -435,9 +435,9 @@ function changeToFA() {
     "border-left-1"
   );
 
-  $$.querySelector(".service-lan-site").children[4].classList.add(
-    "border-right-1"
-  );
+  // $$.querySelector(".service-lan-site").children[4].classList.add(
+  //   "border-right-1"
+  // );
 
   // skills page change
   $$.querySelector(".skills-lan-site").innerHTML = languages[0].skillsPage[0];
@@ -460,17 +460,17 @@ function changeToFA() {
     ".contact-lan-site"
   ).children[3].children[1].classList.remove("border-left");
 
-  $$.querySelector(".contact-lan-site").children[3].children[1].classList.add(
-    "border-right"
-  );
+  // $$.querySelector(".contact-lan-site").children[3].children[1].classList.add(
+  //   "border-right"
+  // );
 
   $$.querySelector(".contact-lan-site").children[3].classList.remove(
     "border-left-1"
   );
 
-  $$.querySelector(".contact-lan-site").children[3].classList.add(
-    "border-right-1"
-  );
+  // $$.querySelector(".contact-lan-site").children[3].classList.add(
+  //   "border-right-1"
+  // );
 }
 
 // Change language to EN
